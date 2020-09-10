@@ -26,8 +26,8 @@ const AddFriend = (props) => {
             .then(response => 
                 {
                //    props.getData()
-            //   props.setFriends(friendForm);
-                    console.log(response)
+               props.setFriends(response.data);
+                    console.log(response.data)
                 }
                
 
